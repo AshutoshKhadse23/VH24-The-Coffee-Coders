@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="utf-8">
+  <title>Helpify | Dashboard</title>
+
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+  <link rel="stylesheet" href="path/to/flaticon.css">
+
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+  <div class="page-wrapper dashboard ">
+
+  
+    <span class="header-span"></span>
+
+    <header class="main-header header-shaddow">
+      <div class="container-fluid">
+        <div class="main-box">
+          <div class="nav-outer">
+            <div class="logo-box">
+              <div class="logo"><a href="/institute-prof"><img src="/images/logo.png" width="50" alt="" title=""></a></div>
+            </div>
+
+                    
+          </div>
+
+          <div class="outer-box">
+
+            <button class="menu-btn">
+              <span class="count">1</span>
+              <span class="icon la la-heart-o"></span>
+            </button>
+
+            <button class="menu-btn">
+              <span class="icon la la-bell"></span>
+            </button>
+
+            <div class="dropdown dashboard-option">
+              <a class="dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false">
+                <img src="images/resource/company-6.png" alt="avatar" class="thumb">
+                <span class="name">My Account</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="active"><a href="/  institute-prof"> <i class="la la-home"></i> Dashboard</a></li>
+                <li><a href="/dashboard-institute-profile"><i class="la la-user-tie"></i>Institute  Profile</a></li>
+                <li><a href="/institute-raise-request"><i class="la la-paper-plane"></i>Raise New Request</a></li>
+                <li><a href="/request"><i class="la la-briefcase"></i> Track Request </a></li>
+                <!-- <li><a href="dashboard-applicants "><i class="la la-file-invoice"></i> AFeedback And Quality</a></li> -->
+                <li><a href="/dashboard-institute-profile"><i class="la la-bookmark-o"></i>Profile Setting</a></li>
+                <li><a href="/dashboard-packages"><i class="la la-box"></i>Reports</a></li>
+                <li><a href="/dashboard-messages"><i class="la la-comment-o"></i>Messages</a></li>
+                <li><a href="/alerts"><i class="la la-bell"></i>Alert</a></li>
+                <li><a href="/dashboard-change-password"><i class="la la-lock"></i>Change Password</a></li>
+                <li><a href="/dashboard-institute-profile"><i class="la la-user-alt"></i>View Profile</a></li>
+                <li><a href="/index"><i class="la la-sign-out"></i>Logout</a></li>
+                <li><a href="/index"><i class="la la-trash"></i>Delete Profile</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Header -->
+      <div class="mobile-header">
+        <div class="logo"><a href="index "><img src="/images/logo.png" width="50" alt="" title=""></a></div>
+
+        <!--Nav Box-->
+        <div class="nav-outer clearfix">
+
+          <div class="outer-box">
+            <!-- Login/Register -->
+            <div class="login-box">
+              <a href="/login-popup" class="call-modal"><span class="icon-user"></span></a>
+            </div>
+
+            <button id="toggle-user-sidebar"><img src="images/resource/company-6.png" alt="avatar" class="thumb"></button>
+            <a href="#nav-mobile" class="mobile-nav-toggler navbar-trigger"><span class="flaticon-menu-1"></span></a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Mobile Nav -->
+      <div id="nav-mobile"></div>
+    </header>
+    <!--End Main Header -->
+
+    <!-- Sidebar Backdrop -->
+    <div class="sidebar-backdrop"></div>
+
+    <!-- User Sidebar -->
+    <div class="user-sidebar">
+
+      <div class="sidebar-inner">
+        <ul class="navigation">
+          <li class="active" ><a href="/institute-prof"> <i class="la la-home"></i> Dashboard</a></li>
+          <li><a href="/dashboard-institute-profile"><i class="la la-user-tie"></i>Institute  Profile</a></li>
+          <li><a href="/institute-raise-request"><i class="la la-paper-plane"></i>Raise New Request</a></li>
+          <li ><a href="/request"><i class="la la-briefcase"></i> Track Request </a></li>
+          <!-- <li><a href="dashboard-applicants "><i class="la la-file-invoice"></i> AFeedback And Quality</a></li> -->
+          <li><a href="/dashboard-institute-profile"><i class="la la-bookmark-o"></i>Profile Setting</a></li>
+          <li><a href="/dashboard-packages"><i class="la la-box"></i>Reports</a></li>
+          <li><a href="/dashboard-messages"><i class="la la-comment-o"></i>Messages</a></li>
+          <li><a href="/alerts"><i class="la la-bell"></i> Alerts</a></li>
+          <li><a href="/dashboard-change-password"><i class="la la-lock"></i>Change Password</a></li>
+          <li><a href="/dashboard-institute-profile"><i class="la la-user-alt"></i>View Profile</a></li>
+          <li><a href="/index"><i class="la la-sign-out"></i>Logout</a></li>
+          <li><a href="/index"><i class="la la-trash"></i>Delete Profile</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End User Sidebar -->
+
+    <!-- Dashboard -->
+    <section class="user-dashboard">
+        <div class="dashboard-outer">
+          <div class="upper-title-box">
+            <h3>Hii Coders..!!!</h3>
+            <div class="text">Ready to jump back in?</div>
+          </div>
+          <div class="row">
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+              <div class="ui-item">
+                <div class="left">
+                  <i class="icon flaticon-clipboard"></i>                </div>
+                <div class="right">
+                  <h4>12</h4>
+                  <p>Items Requested</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+              <div class="ui-item ui-red">
+                <div class="left">
+                  <i class="icon la la-clock"></i> 
+                </div>
+                <div class="right">
+                  <h4>5</h4> 
+                  <p>Pending Requests</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+              <div class="ui-item ui-yellow">
+                <div class="left">
+                  <i class="icon la la-check-circle"></i>
+                </div>
+                <div class="right">
+                  <h4>100</h4> 
+                  <p>Items Delivered</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+              <div class="ui-item ui-green">
+                <div class="left">
+                  <i class="icon la la-exclamation-triangle"></i> 
+                </div>
+                <div class="right">
+                  <h4>2</h4> 
+                  <p>Anomalies Flagged</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+    <div class="copyright-text">
+      <p>© 2024 Helpify. All Right Reserved.</p>
+    </div>
+
+  </div><!-- End Page Wrapper -->
+
+
+  <script src="js/jquery.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/chosen.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/jquery.fancybox.js"></script>
+  <script src="js/jquery.modal.min.js"></script>
+  <script src="js/mmenu.polyfills.js"></script>
+  <script src="js/mmenu.js"></script>
+  <script src="js/appear.js"></script>
+  <script src="js/ScrollMagic.min.js"></script>
+  <script src="js/rellax.min.js"></script>
+  <script src="js/owl.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/script.js"></script>
+
+  <!-- Chart.js // documentation: http://www.chartjs.org/docs/latest/ -->
+  <script src="js/chart.min.js"></script>
+  <script>
+    Chart.defaults.global.defaultFontFamily = "Sofia Pro";
+    Chart.defaults.global.defaultFontColor = '#888';
+    Chart.defaults.global.defaultFontSize = '14';
+
+    var ctx = document.getElementById('chart').getContext('2d');
+
+    var chart = new Chart(ctx, {
+
+      type: 'line',
+      // The data for our dataset
+      data: {
+        labels: ["January", "February", "March", "April", "May", "June"],
+        // Information about the dataset
+        datasets: [{
+          label: "Views",
+          backgroundColor: 'transparent',
+          borderColor: '#1967D2',
+          borderWidth: "1",
+          data: [196, 132, 215, 362, 210, 252],
+          pointRadius: 3,
+          pointHoverRadius: 3,
+          pointHitRadius: 10,
+          pointBackgroundColor: "#1967D2",
+          pointHoverBackgroundColor: "#1967D2",
+          pointBorderWidth: "2",
+        }]
+      },
+
+      // Configuration options
+      options: {
+
+        layout: {
+          padding: 10,
+        },
+
+        legend: {
+          display: false
+        },
+        title: {
+          display: false
+        },
+
+        scales: {
+          yAxes: [{
+            scaleLabel: {
+              display: false
+            },
+            gridLines: {
+              borderDash: [6, 10],
+              color: "#d8d8d8",
+              lineWidth: 1,
+            },
+          }],
+          xAxes: [{
+            scaleLabel: {
+              display: false
+            },
+            gridLines: {
+              display: false
+            },
+          }],
+        },
+
+        tooltips: {
+          backgroundColor: '#333',
+          titleFontSize: 13,
+          titleFontColor: '#fff',
+          bodyFontColor: '#fff',
+          bodyFontSize: 13,
+          displayColors: false,
+          xPadding: 10,
+          yPadding: 10,
+          intersect: false
+        }
+      },
+    });
+  </script>
+
+</body>
+
+
+<!-- Mirrored from creativelayers.net/themes/superio/dashboard  by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Mar 2024 19:42:58 GMT -->
+</html>
